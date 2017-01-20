@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Lesson Planning</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat|Cardo|Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="lessonplanning.html">Lesson Planning</a></li>
+				<li><a href="lessonframing.html">Lesson Framing</a></li>
+				<li><a href="instruction.html">Instruction</a></li>
+				<li><a href="cfu.html">Checking for Understanding</a></li>
+				<li><a href="activelearning.html">Active Learning</a></li>
+				<li><a href="classroomculture.html">Classroom Culture</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="hero activelearning">
+		<h1><span>Instructional Best Practices:</span><br>Active Learning</h1>
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="#activelearning">Active Learning</a></li>
+			<li><a href="#pacing">Pacing</a></li>
+			<li><a href="#studentengagement">Student Engagement</a></li>
+		</ul>
+	</nav>
+
+	<div class="pagecontent">
+		<h2 id="activelearning">Active Learning</h2>
+		<p>Research shows that learning improves when students are actively participating, applying, and synthesizing new skills and concepts, and that learning tends to suffer when students are passive, bored, or otherwise disengaged. How can we engage students in active learning? Research shows that engaged students earn higher grades, perform better on tests, can set and meet personal goals, persist on tasks, expect success, and value educational outcomes.</p>
+		<img src="images/60-40-ratio.png" alt="ratio">
+
+		<p>Start class with students responding to a short prompt (write, diagram, discuss with a partner).</p>
+		<p>Pause every 10 minutes of lecture for short activities (explore a concept, practice a skill) for students to apply/synthesize learning, and check for understanding (reteach if necessary).</p>
+		<p>Assign challenges to small groups for cooperative learning; count-off to group and move students around room; give clear directions; let the students lead.</p>
+		<p>Use images and graphics to make your teaching visible, memorable, and to clarify ideas.</p>
+		<p>Use questioning strategies and checks for understanding that make all students think and answer.</p>
+		<p>Instead of whole-class discussions, use techniques like Turn-and-Talk, or Write-Share.</p>
+		<p>Time box lesson activities to create a sense of urgency and focus.
+		Use examples that are relevant to students’ lives and goals. Make it matter to them.</p>
+		<p>Ask extension questions following student responses: Why do you think that? How do you know this? Can you tell me more? What questions do you still have?</p>
+		<p>End class with an Exit Task – a quick student survey about the lesson’s key takeaways, their level of confidence or remaining challenges with the new skills or concepts.</p>
+
+		
+		<h2 id="pacing">Pacing</h2>
+		<p>Lorem cupiditate.</p>
+		
+
+		<h2 id="studentengagement">Student Engagement</h2>
+		<h3>Dodgeball as a Talking Stick</h3>
+		<p>Keep a dodgeball in the front of the room to call on students when answering questions. You throw, they catch, then they answer the question.  If they don’t know the answer or another student wanted to add on, they can throw the ball to that student.  You can call names and toss or ask a “how many answers can we think of for this question” and popcorn the ball around the room.</p>
+		<h3>Music Break</h3>
+		<p>There’s nothing wrong with a quick auditory break!  By putting on a song, we give the class a timed break and provide a bit of relief to those musically inclined. Remember those multiple intelligences?</p>
+		<h3>Seventh Inning Stretch</h3>
+		<p>When students sit for long periods of time, their muscles tense & they need to stretch out.  Lead some stretches to optimize focus & attention, and release pent-up energy so students can focus going forward.  You can offer students a go-to “seventh-inning stretch” which is a quick exercise that you lead in the class, possibly during the mid-afternoon slump.</p>
+		<h2></h2>
+		<p></p>
+		<h2></h2>
+		<p></p>
+	</div>
+	
+</body>
+</html>

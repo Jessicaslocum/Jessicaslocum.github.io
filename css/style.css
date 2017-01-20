@@ -1,0 +1,415 @@
+
+/****** Main content *********/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  color: #44545E;
+  -webkit-font-smoothing: antialiased;
+}
+
+/****** Fonts *********/
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 37px;
+  text-align: center;
+  margin: 15px 0 35px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  text-align: left;
+  font-size: 14px;
+}
+
+span p {
+  font-weight: 500;
+}
+
+.pagecontent h2 {
+  padding-top: 40px;
+}
+
+.explanatorytext p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flexbox p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 10px 60px;
+  font-size: 12px;
+  text-transform: uppercase;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hamburger {
+  font-size: 1.68em;
+  padding: 10px 20px;
+  display: none;
+  color: #44545E;
+}
+
+header ul {
+  margin: 10px;
+  font-size: 10px;
+}
+
+a:hover {
+  color: #f46242;
+}
+
+li a {
+  text-decoration: none; 
+  color: #939393;
+}
+
+article li {
+  font-size: 14px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid #ccc;
+  width: 92%;
+}
+
+/****** Divs & Sections *********/
+
+article {
+  width: 30%;
+}
+
+.caption p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.paragraph article {
+  width:  48%;
+}
+
+.paragraph p {
+  font-size: 14px;
+}
+
+.intro {
+  padding: 5px 20px;
+  margin: 0px 100px;
+  display: flex;
+  text-align: justify;
+}
+
+/****** Hero *********/
+
+.hero {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  background-size: cover;
+  padding-top: 110px;
+  margin-bottom: 20px;
+  height: 500px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.hero h1 span {
+  font-size: 25px;
+  color: #CB4545;
+  border-bottom: 2px solid #CB4545;
+  padding-bottom: 12px;
+  line-height: 3;
+}
+
+/****** Page Content *********/
+
+
+img {
+  transition: all 0.3s;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pagecontent img {
+    max-width: 600px;
+}
+
+.strategies img {
+  border-style: solid;
+  border-color: #C5C4C8;
+  border-radius: 10px;
+}
+
+div img:hover {
+  -moz-transform: scale(1.041);
+  -webkit-transform: scale(1.041);
+  transform: scale(1.041);
+  opacity: 0.8;
+}
+
+.center {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.prompts {
+  margin-top: -55px;
+  display: inline-block;
+  background-color: #C5C4C8;
+  padding: 8px 16px;
+  font-family: "Gotham SSm A","Gotham SSm B",Arial,Verdana,sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.pagecontent {
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.trythis {
+  padding: 40px 80px 20px 80px;
+}
+
+.strategies {
+  background-color: #EEEEEE;
+  margin: 10px 50px;
+}
+
+
+/****** Table *********/
+
+.skinnyscreen {
+  display: none;
+}
+
+table {
+  width:100%;
+  table-layout: fixed;
+  border: solid 1px rgb(114, 144, 135);
+  border-spacing: 0;
+}
+
+.tbl-header {
+  background-color: #D4FBF9;
+  /* margin: 0px 15px; */
+}
+
+.tbl-content {
+  /* margin: 0px 15px; */
+}
+
+.standard-col {
+  width:13%;
+}
+
+.strand-col {
+  width:11%;
+}
+
+.beginning-col, .approaching-col, .proficient-col {
+  width:18%;
+}
+
+.advanced-col{
+  width: 21%;
+}
+
+th tr {
+  font-size: 13px;
+}
+
+th  {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 15px;
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-bottom: solid 2px #c7e5dc;
+}
+
+.lastrow {
+  border-bottom: solid 2px #c7e5dc;  
+}
+
+
+th a {
+  text-decoration: none;
+  color: #10178c;
+}
+
+.tbl-content {
+  height:540px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,235,255);
+  background-color: #DEFFF5;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  border-bottom: solid 1px #c7e5dc;
+}
+
+tr: hover {
+  background-color: #dbdbdb;
+}
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+section {
+  padding: 0 20px 54px 20px;
+  text-align: left;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.paragraph {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/****** Hero Background Images *********/
+
+.homepage {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url(../images/gaclassroom.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lessonplanning {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(../images/typingwriting.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lessonframing {
+ background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(../images/whiteboard.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.instruction {
+ background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(../images/instruction.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.cfu {
+ background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(../images/leahandi.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.activelearning {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(../images/post-its.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.classroomculture {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(../images/groupwork3.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ----------------------------------------
+Media Styles
+------------------------------------------- */
+
+@media only screen and (max-width: 1100px) {
+
+  .tbl-header {
+    display: none;
+  }
+
+  .tbl-content {
+    display: none;
+  }
+
+  .skinnyscreen {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .hamburger {
+    display: block;
+    justify-content: right;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+
+/*http://codepen.io/nikhil8krishnan/pen/WvYPvv -- fixed top header
+ http://codepen.io/jackrugile/pen/EyABe -- hover filter
+ http://codepen.io/geoffyuen/pen/FCBEg -- table to list responsive
+ http://codepen.io/rachelmiller_io/pen/eZZPWj -- hamburger button
+ https://codepen.io/jmslocum/pen/egmavV -- right fixed side nav 
+ http://getbootstrap.com/components/#btn-dropdowns-dropup -- right side bar
+ https://www.edutopia.org/ -- content organization */
